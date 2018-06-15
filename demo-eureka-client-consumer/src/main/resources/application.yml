@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: first-service-consumer
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+

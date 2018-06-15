@@ -13,7 +13,6 @@ public class FirstController {
 
     @GetMapping("/first")
     public String first() {
-
         return "first";
     }
 }
